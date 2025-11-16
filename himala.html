@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Himala — Two Filmmakers, Two Languages of Cinema</title>
+ <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Plus+Jakarta+Sans:wght@300;400;600&family=New+Tegomin&display=swap');
+
+  :root{
+    --grad1:#c7b9ff;
+    --grad2:#e7b1ff;
+    --grad3:#ffcae7;
+    --text:##0b1a33;
+    --accent:#b38cff;
+  }
+
+  body{
+    background:linear-gradient(135deg,var(--grad1),var(--grad2),var(--grad3));
+    min-height:100vh;
+    font-family:'Poppins','Plus Jakarta Sans',sans-serif;
+    color:var(--text);
+    padding:20px 0;
+  }
+
+  .container{
+    max-width:900px;
+    margin:0 auto;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(18px);
+    padding:32px;
+    border-radius:22px;
+    border:2px solid rgba(255,255,255,0.25);
+    box-shadow:0 8px 40px rgba(0,0,0,0.08);
+    position:relative;
+    overflow:hidden;
+  }
+
+  /* 🎐 Pastel line-art frame */
+  .container::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    border:3px double rgba(255,255,255,0.35);
+    border-radius:20px;
+    pointer-events:none;
+  }
+
+  h1{
+    font-family:'New Tegomin',serif; 
+    font-size:2.2rem;
+    letter-spacing:1px;
+    text-align:center;
+    color:#ffffff;
+    margin-bottom:20px;
+    text-shadow:0 0 6px rgba(255,255,255,0.5);
+  }
+
+  /* Soft subtitle */
+  h1 span{
+    font-family:'Poppins';
+    display:block;
+    font-size:1rem;
+    margin-top:5px;
+    opacity:0.85;
+  }
+
+  /* Gentle cloud separators */
+  section{
+    background:rgba(255,255,255,0.12);
+    padding:22px;
+    border-radius:20px;
+    margin-bottom:24px;
+    border:1.5px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(10px);
+    position:relative;
+    overflow:hidden;
+  }
+
+  section::after{
+    content:"";
+    position:absolute;
+    bottom:-20px;
+    right:-20px;
+    width:180px;
+    height:80px;
+    background:rgba(255,255,255,0.2);
+    filter:blur(40px);
+    border-radius:50%;
+  }
+
+  h2{
+    font-size:1.5rem;
+    color:#ffffff;
+    margin-bottom:10px;
+    font-weight:600;
+    text-shadow:0 0 5px rgba(255,255,255,0.4);
+  }
+
+  p{
+    line-height:1.7;
+    margin-bottom:12px;
+    opacity:0.95;
+  }
+
+  .muted{
+    opacity:0.85;
+    font-size:0.95rem;
+  }
+
+  /* 🌸 Pastel buttons */
+  nav button{
+    background:linear-gradient(135deg,#d6b9ff,#ffc9f1);
+    padding:10px 16px;
+    border:none;
+    border-radius:16px;
+    cursor:pointer;
+    margin:5px;
+    color:#5a4b85;
+    font-weight:600;
+    font-size:0.95rem;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    transition:0.2s;
+  }
+
+  nav button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 14px rgba(0,0,0,0.15);
+    opacity:0.95;
+  }
+
+body {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <div>
+        <h1>COMPARATIVE ANALYSIS: "HIMALA" (1982) BY ISHMAEL BERNAL AND "ISANG HIMALA" (2023) BY PEPE DIOKNO<br><span style='font-size:1rem;'>MA304-Dagnalan — Lanz Kristoffer C. Erjas</span></h1>
+      
+    </header>
+
+    <nav class="toc" aria-label="Table of contents">
+      <button onclick="scrollToId('cinematography')">Cinematography & Sound</button>
+      <button onclick="scrollToId('production')">Production Design & Lighting</button>
+      <button onclick="scrollToId('acting')">Acting Styles</button>
+      <button onclick="scrollToId('symbolism')">Symbolism & Motifs</button>
+      <button onclick="scrollToId('directorial')">Directorial Visions</button>
+      <button onclick="scrollToId('tone')">Tone & Conclusion</button>
+    </nav>
+
+    <main>
+      <section id="cinematography">
+        <h2>Cinematography & Sound</h2>
+             <p>The two versions of Himala Ishmael Bernal’s 1982 classic and Diokno contemporary reinterpretation offer a fascinating study in how filmmakers can tell the same story in very different ways. In Bernal’s version, the cinematography leans toward wide, desolate compositions that make the barren landscape of Cupang feel like a character itself, symbolizing spiritual drought and social decay. His shots are steady and often static, giving the impression that the camera is another villager quietly observing the community, watching events unfold with both intimacy and distance. Silence is used powerfully here, particularly in moments when Elsa is alone before performing a supposed miracle; the quiet amplifies the tension and invites viewers to reflect on the ambiguity of faith. In contrast, the contemporary version uses tighter, more dynamic compositions and fluid camera movement, creating a sense of immediacy and emotional intensity. Sound is treated differently as well: musical cues, ambient scoring, and rhythmic editing heighten the drama, making the audience feel swept up in the characters’ psychological experiences rather than just observing them. This shows how sound can transform the emotional impact of a scene and why it matters as much as visuals in storytelling.
+	</p>
+        <details>
+          <summary>Why sound matters</summary>
+          <p class="quote">"The use of sound in Isang Himala propels scenes with emotional urgency... Bernal’s original weaponizes silence."</p>
+        </details>
+      </section>
+
+      <section id="production">
+        <h2>Production Design & Lighting</h2>
+        <p>Production design and lighting further highlight the directors distinct approaches. Bernal Cupang is dusty, minimal, and sun bleached, almost stripped of ornamentation, which reinforces his realistic depiction of poverty and makes the townspeople appear trapped within both a physical and spiritual wasteland. Lighting is natural, capturing the harshness of the sun and the starkness of the environment. Diokno’s version, however, embraces theatricality, using heightened colors, stylized sets, and lighting as a narrative tool. Chiaroscuro, colored washes, and spotlighting transform ordinary spaces into reflections of characters’ inner conflicts, making the environment feel psychological as much as physical. This approach emphasizes emotion and symbolism over strict realism, showing how production design can shape the audience’s perception of the story’s meaning.
+	</p>
+      </section>
+
+      <section id="acting">
+        <h2>Acting Styles</h2>
+        <p class="muted">Understated naturalism vs. expressive psychological performance.</p>
+        <p>Acting choices also reflect these differences. Nora Aunor Elsa in Bernal film is understated and internalized, with her stillness and subtle gestures allowing viewers to project their interpretations onto her. The ensemble cast reacts naturally, capturing the rhythms of rural speech, gossip, and desperation, which enhances the film’s realism. Diokno’s actors, by contrast, perform in a more expressive, sometimes heightened manner to complement the musical and contemporary cinematic style. Emotions are conveyed more overtly through vocal delivery and physicality, turning key moments into heightened dramatic experiences while exploring psychological depth.
+	</p>
+      </section>
+
+      <section id="symbolism">
+        <h2>Symbolism & Visual Motifs</h2>
+        <p class="muted">Subtle environmental metaphors vs. overt symbolic devices.</p>
+        <p>Symbolism and visual motifs follow a similar pattern. Bernal relies on subtle environmental metaphors, such as sandstorms, barren hills, and long shadows, to represent spiritual emptiness and the blurred line between truth and illusion. Water and its absence become recurring symbols of purity, salvation, and unfulfilled longing. The contemporary adaptation makes these elements more overt, using color motifs, lighting shifts during Elsa’s visions, and rhythmic musical repetition to create almost ritualistic imagery. The reinterpretation makes symbolism explicit, shaping the audience’s emotional response in a more theatrical and psychologically driven way.
+	</p>
+      </section>
+
+      <section id="directorial">
+        <h2>Directorial Visions</h2>
+        <p class="muted">From Martial Law-era critique to modern psychological spectacle.</p>
+        <p>The directors’ visions reflect their historical and cultural contexts. Bernal’s dramatic realism situates Himala within Martial Law-era anxieties, using the story to comment on poverty, desperation, and the collective need for faith in oppressive circumstances. Elsa’s miracles become a lens through which the community’s vulnerability is revealed, and the understated tone underscores the unsentimental critique of society. Diokno, meanwhile, reframes the story for a contemporary audience, exploring psychological trauma, media spectacle, and the commercialization of belief. Faith, fanaticism, and community hysteria are depicted in ways that resonate with modern social dynamics, emphasizing emotional experience rather than social documentation. Tone is a key distinction: Bernal’s film is austere and deliberate, almost journalistic, while Diokno’s is lyrical, emotionally driven, and immersive.
+	</p>
+      </section>
+
+      <section id="tone">
+        <h2>Insight</h2>
+        <p>Personally, I found the contemporary version more immediately engaging because of its expressive style and emotional intensity, but Bernal’s original continues to linger with its stark realism and moral weight. Comparing the two versions highlights how film language cinematography, sound, production design, acting, and symbolism shapes not just what we see but how we feel, interpret, and respond to a story. The classic demonstrates how subtlety and restraint can communicate depth, while the reinterpretation shows how emotion, style, and abstraction can reveal new layers of meaning. Both are powerful in their own ways, and together they illustrate the enduring relevance and flexibility of storytelling through film.
+	</p>
+      </section>
+
+      
+
+    </main>
+
+    <footer>Created for my Film language - Lanz Kristoffer C. Erjas</footer>
+  </div>
+
+  <script>
+    function scrollToId(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'})}
+    document.getElementById('toggleContrast').addEventListener('click',()=>{
+      const root=document.documentElement;
+      if(root.style.getPropertyValue('--bg') === 'rgb(15, 23, 36)'){
+        // noop
+      }
+      // quick invert-ish switch
+      if(root.style.getPropertyValue('--bg')){
+        root.style.setProperty('--bg',root.style.getPropertyValue('--bg') === '#ffffff' ? '#0f1724' : '#ffffff');
+        root.style.setProperty('--text',root.style.getPropertyValue('--text') === '#071022' ? '#071022' : '#071022');
+      }
+      alert('High-contrast toggle (demo) — you can edit colors in the CSS.');
+    })
+
+document.body.onselectstart = function() { return false; };
+document.body.onmousedown = function() { return false; };
+
+  </script>
+</body>
+</html>
+
